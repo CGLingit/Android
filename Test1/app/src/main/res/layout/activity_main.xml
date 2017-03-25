@@ -11,4 +11,14 @@
     android:text="打开另一个Activity"
     android:id="@+id/StartBtn"
     />
+
+    <Button
+        android:text="Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/StartBtn"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="17dp"
+        android:id="@+id/button" />
 </RelativeLayout>
