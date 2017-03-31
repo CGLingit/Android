@@ -1,7 +1,7 @@
 在README.md中添加图片
 
 1.建立一个READ.md
-2.输入![Image text](http://raw.github.com/username/repository/master/images-folder/xxx.png) 
+2.输入“![Image text](http://raw.github.com/username/repository/master/images-folder/xxx.png)” 
 解释
 yourname Github帐号名
 your-repository Github当前仓库名
