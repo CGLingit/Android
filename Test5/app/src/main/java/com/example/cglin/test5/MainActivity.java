@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
                 if(femaleButton.getId()==checkedId){
                     System.out.println("famale");
                     //提示信息
-                    Toast.makeText(MainActivity.this,"female",Toast.LENGTH_SHORT).show();
+                     Toast.makeText(MainActivity.this,"female",Toast.LENGTH_SHORT).show();
                 }else if(maleButton.getId()==checkedId){
                     System.out.println("male");
                 }
