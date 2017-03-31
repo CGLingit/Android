@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Test5</string>
+    <string name="female">女</string>
+    <string name="male">男</string>
+    <string name="swimbox">swim</string>
+    <string name="runbox">run</string>
+    <string name="readbox">read</string>
+
+</resources>
