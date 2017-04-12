@@ -42,6 +42,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 DatePickerDialog my_datePickDialog=new DatePickerDialog(MainActivity.this,Datelistener,year,month,day);
+
                 DatePicker datePicker=my_datePickDialog.getDatePicker();
                 long maxdate=System.currentTimeMillis();
                 long mindate=0;
