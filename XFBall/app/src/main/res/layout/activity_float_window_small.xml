@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/float_window_small"
+    android:layout_width="50dip"
+    android:layout_height="50dip"
+    android:orientation="horizontal"
+    android:background="@drawable/bg_small"
+        >
+    <TextView
+        android:id="@+id/percent"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        />
+
+</LinearLayout>
