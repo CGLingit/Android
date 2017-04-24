@@ -83,8 +83,8 @@ public class FloatWindowBigView extends LinearLayout {
         /*
 
 
-           实现HOME
-
+           实现RECTENT
+           缺点：点击rectent按钮后，多任务界面出现了，但是悬浮窗的大窗口关闭不了
 
          */
         recent.setOnClickListener(new OnClickListener() {
