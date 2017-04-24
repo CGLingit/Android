@@ -150,4 +150,9 @@ public class MyWindowManager {
         }
         return mWindowManager;
     }
+
+    public void lockScreen(){
+
+    }
+
 }

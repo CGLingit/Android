@@ -6,6 +6,8 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
+import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
@@ -16,6 +18,7 @@ import java.lang.reflect.Field;
  */
 
 public class FloatWindowSmallView extends LinearLayout {
+
     //记录小浮窗口的宽度
     public static int viewWidth;
     //记录小悬浮窗口的高度
@@ -47,6 +50,7 @@ public class FloatWindowSmallView extends LinearLayout {
         viewHeight=view.getLayoutParams().height;
         viewWidth=view.getLayoutParams().width;
     }
+
     @Override
     public boolean onTouchEvent(MotionEvent event){
         switch (event.getAction()){
