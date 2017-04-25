@@ -66,9 +66,6 @@ public class FloatWindowBigView extends LinearLayout {
             }
         });
        /*
-
-
-
          实现home键
        */
         home.setOnClickListener(new OnClickListener() {
@@ -81,19 +78,16 @@ public class FloatWindowBigView extends LinearLayout {
             }
         });
         /*
-
-
            实现RECTENT
-           缺点：点击rectent按钮后，多任务界面出现了，但是悬浮窗的大窗口关闭不了
 
          */
         recent.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View v) {
-
-                MyAccessibilityService.recents();
                 MyWindowManager.removeBigWindow(context);
                 MyWindowManager.createSmallWindow(context);
+                MyAccessibilityService.recents();
+
             }
         });
     }
